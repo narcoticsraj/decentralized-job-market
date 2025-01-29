@@ -1,0 +1,48 @@
+const job1 = await jobMarketplace.getJob(0);
+console.log(job1);
+console.log(job);
+const job1 = await jobMarketplace.getJob(0);
+const job = await jobMarketplace.getJob(0);
+const job = await jobMarketplace.getJob(1);
+await jobMarketplace.postJob("Web Dev", "Looking for a React developer", ethers.parseEther("0.005"));
+console.log(profile1);
+const profile1 = await jobMarketplace.getProfile("0xB6af65cb273F612FBE52F4c8F571415bEc875220");
+const profile = await jobMarketplace.getProfile("0xB6af65cb273F612FBE52F4c8F571415bEc875220");
+ await jobMarketplace.createProfile("John Doe", "React, Solidity");
+console.log(job0);
+const job0 = await jobMarketplace.getJob(0);
+console.log(profile);
+const profile = await jobMarketplace.getProfile("0xe4fE59D5Afa8Ee66b1eD2F685907BBaAe95bdC3e");
+console.log(profile);
+const profile = await jobMarketplace.getProfile("0xe4fE59D5Afa8Ee66b1eD2F685907BBaAe95bdC3e"); // Replace with an actual address
+);
+  "0xe4fE59D5Afa8Ee66b1eD2F685907BBaAe95bdC3e"
+  "JobMarketplace", 
+const jobMarketplace = await ethers.getContractAt(
+console.log(Object.keys(jobMarketplace));
+console.log("Total jobs:", totalJobs.toString());
+const totalJobs = await jobMarketplace.getJobCount();
+);
+  "0xe4fE59D5Afa8Ee66b1eD2F685907BBaAe95bdC3e" // Deployed contract address
+  "JobMarketplace", // Contract name
+const jobMarketplace = await ethers.getContractAt(
+console.log("Profile created successfully!");
+await jobMarketplace.createProfile("John Doe", "React, Solidity");
+const jobMarketplace = await ethers.getContractAt("JobMarketplace", "0xe4fE59D5Afa8Ee66b1eD2F685907BBaAe95bdC3e");
+npx hardhat run scripts/deploy.js --network sepolia
+console.log(job0);
+const job0 = await jobMarketplace.getJob(0);
+console.log("Total Jobs:", totalJobs.toString()); // Convert BigInt to string
+const totalJobs = await jobMarketplace.getJobCount();
+console.log(job);
+const job = await jobMarketplace.getJob(1); // Assuming job ID 1
+console.log("Job posted successfully!");
+await jobMarketplace.postJob("Web Dev", "Looking for a React developer", ethers.parseEther("0.5"));
+console.log(profile);
+const profile = await jobMarketplace.getProfile("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+console.log("Profile created successfully!");
+await jobMarketplace.createProfile("John Doe", "React, Solidity");
+console.log("Profile created successfully!");
+await jobMarketplace.createProfile("John Doe", ["React", "Solidity"]);
+await jobMarketplace.postJob("Web Dev", "Looking for a React developer", ethers.parseEther("0.5"));
+const jobMarketplace = await ethers.getContractAt("JobMarketplace", "0xc5a5C42992dECbae36851359345FE25997F5C42d");
